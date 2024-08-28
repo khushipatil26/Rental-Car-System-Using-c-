@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1722008967 source:c:\users\khush\onedrive\desktop\car rental system\main.cpp
+	<iostream>
+	<fstream>
+	<unistd.h>
+	<iomanip>
+	<ctime>
+

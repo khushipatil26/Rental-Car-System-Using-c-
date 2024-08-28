@@ -1,0 +1,16 @@
+#include <iostream>
+#include <fstream>
+
+int main() {
+    std::ofstream outputFile("welcome.txt");
+    if (outputFile.is_open()) {
+        outputFile << "Welcome to our Car Rental Service!\n";
+        outputFile << "We offer a variety of cars to suit your needs.\n";
+        outputFile << "Please read the following information carefully.\n";
+        outputFile.close();
+        std::cout << "welcome.txt has been created successfully.\n";
+    } else {
+        std::cerr << "Error creating the file welcome.txt\n";
+    }
+    return 0;
+}
